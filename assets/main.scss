@@ -5,9 +5,9 @@
 
 .homeGrid {
   display: inline-grid;
-  grid-template-columns: 50%;
-  grid-template-rows: 100px 200px 200px;
-  place-items: start end;
+  grid-template-columns: 20% 10% 70%;
+  grid-template-rows: 17vh 10px 20vh 20vh;
+  // place-items: start end;
 }
 
 .headshot {
@@ -15,21 +15,23 @@
   grid-column: 1/2;
   grid-row: 1;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
   padding: 0px 10px 0px 0px;
 }
 
 .myBio {
-  grid-column: 2/3;
+  grid-column: 3/4;
   grid-row: 1;
 }
 
 .webLink {
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 1/5;
 }
 
 .artLink {
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 1/5;
 }
 
@@ -39,4 +41,8 @@
 
 .webLink:hover {
   opacity: 0.8;
+}
+
+.footer-content {
+  padding: 50px;
 }

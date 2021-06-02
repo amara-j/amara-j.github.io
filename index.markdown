@@ -7,16 +7,16 @@ layout: home
 
 <div class = "homeGrid">
 
-<a href="https://github.com/amara-j" class = "headshot">
-<img class = "headshot" src="headshot.jpeg" height="150" width="150">
-</a>
+<!-- <a href="https://github.com/amara-j" class = "headshot"> -->
+<img class = "headshot" src="headshot.jpeg" height="auto" max-width="100%" object-fit= "cover">
+<!-- </a> -->
 
 <p class="myBio">
 Hi, I'm Amara! I'm a recent <a href="https://recurse.com" >Recurse Center</a> alum and love anything at the intersection of art and technology. I currently work part-time at <a href="https://genderamplified.org" >Gender Amplified</a>, an organization promoting women and nonbinary DJs and music producers. 
 </p>
 
 <a href="/projects" class = "webLink">
-<img  class = "webLink" src="web.svg" height="300" width="2000">
+<img  class = "webLink" src="web.svg" height="200" width="2000">
 </a>
 
 <a href="/art" class = "artLink">
