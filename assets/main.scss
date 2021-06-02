@@ -1,0 +1,42 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.homeGrid {
+  display: inline-grid;
+  grid-template-columns: 50%;
+  grid-template-rows: 100px 200px 200px;
+  place-items: start end;
+}
+
+.headshot {
+  display: inline-block;
+  grid-column: 1/2;
+  grid-row: 1;
+  border-radius: 50%;
+  padding: 0px 10px 0px 0px;
+}
+
+.myBio {
+  grid-column: 2/3;
+  grid-row: 1;
+}
+
+.webLink {
+  grid-row: 2;
+  grid-column: 1/5;
+}
+
+.artLink {
+  grid-row: 3;
+  grid-column: 1/5;
+}
+
+.artLink:hover {
+  opacity: 0.8;
+}
+
+.webLink:hover {
+  opacity: 0.8;
+}
