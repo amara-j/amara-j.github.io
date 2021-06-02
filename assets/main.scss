@@ -6,7 +6,7 @@
 .homeGrid {
   display: inline-grid;
   grid-template-columns: 20% 10% 70%;
-  grid-template-rows: 17vh 10px 20vh 20vh;
+  grid-template-rows: auto 10px 20vh 20vh;
   // place-items: start end;
 }
 
