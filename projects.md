@@ -6,7 +6,7 @@ permalink: /projects/
 
 Here are some websites I've built recently. Click on a project title to see it in action.
 
-## [Twitter Insurrection](https://amara-j.github.io/twitter-insurrection/))
+## [Twitter Insurrection](https://amara-j.github.io/twitter-insurrection/)
 
 An interactive hour-by-hour exploration of the Twitter landscape on the day of the riots at the U.S. Capitol. For each hour, shows the network structure of the top five accounts (nodes are accounts, edges are mentions or retweets) and displays randomized tweets from that timeframe. Also displays the top five words for each hour, extracted using text analysis on tweet bodies. Can you see any changes in the network structure throughout the day as violence escalates? Thanks to the MIT Media Lab's Center for Constructive Communication for the dataset.
 
